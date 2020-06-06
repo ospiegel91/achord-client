@@ -1,0 +1,48 @@
+.songContainer{
+    padding: 1%;
+}
+
+.songContainer h4{
+    margin: 0.2% 0 1% 0;
+}
+
+.partsContainer{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.toolBarContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+input[type=range] {
+    position: relative;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+    margin: 4px 0;
+    padding: 0;
+}
+
+fieldset {
+    padding: 0.2%;
+}
+
+label {
+    font-size: 0.6em;
+    margin:0;
+}
+em{
+    font-size: 0.7em;
+}
+
+.symbolContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+
